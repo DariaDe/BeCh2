@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="95" height="17" viewBox="0 0 95 17">
+  <g id="Points" transform="translate(-140 -3197)">
+    <g id="Эллипс_3" data-name="Эллипс 3" transform="translate(140 3197)" fill="#fa83ff" stroke="#fa83ff" stroke-width="1">
+      <circle cx="8.5" cy="8.5" r="8.5" stroke="none"/>
+      <circle cx="8.5" cy="8.5" r="8" fill="none"/>
+    </g>
+    <g id="Эллипс_4" data-name="Эллипс 4" transform="translate(192 3197)" fill="none" stroke="#ea15c9" stroke-width="1">
+      <circle cx="8.5" cy="8.5" r="8.5" stroke="none"/>
+      <circle cx="8.5" cy="8.5" r="8" fill="none"/>
+    </g>
+    <g id="Эллипс_5" data-name="Эллипс 5" transform="translate(166 3197)" fill="none" stroke="#ea15c9" stroke-width="1">
+      <circle cx="8.5" cy="8.5" r="8.5" stroke="none"/>
+      <circle cx="8.5" cy="8.5" r="8" fill="none"/>
+    </g>
+    <g id="Эллипс_6" data-name="Эллипс 6" transform="translate(218 3197)" fill="none" stroke="#ea15c9" stroke-width="1">
+      <circle cx="8.5" cy="8.5" r="8.5" stroke="none"/>
+      <circle cx="8.5" cy="8.5" r="8" fill="none"/>
+    </g>
+  </g>
+</svg>

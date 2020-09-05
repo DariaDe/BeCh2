@@ -1,0 +1,555 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Great+Vibes&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Merriweather:ital,wght@0,400;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap');
+
+
+
+body{
+  background: white;
+  padding: 0;
+  margin: 0;
+  width:100vw;
+
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* First page */
+
+.first-page{
+  min-height:100vh;
+  width: 100vw;
+
+}
+
+
+.white-background{
+  display:flex;
+  justify-content: space-between;
+  padding: .5em .7em;
+  background: white;
+  opacity: .9;
+  overflow:hidden;
+  position: absolute;
+  width:98%;
+  top:0;
+}
+
+.logo{
+  margin:auto 0;
+  font-size: 3em;
+  font-weight: bold;
+  font-family: 'Dancing Script', cursive;
+  color: #1D1A1A;
+  padding: .7em .8em;
+}
+
+.img-a{
+  margin: auto 0;
+  padding-right: 2.2em;
+}
+.menu{
+  width:4em;
+  height:4em;
+}
+
+.nav-ul{
+  display: none;
+  list-style: none;
+  padding: 0;
+}
+
+
+
+.image{
+  background: url("images/Maria-edited5.png");
+  width:100vw;
+  height:60em;
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+}
+
+
+.slogan{
+  font-size: 7.5em;
+  color: #1D1A1A;
+  font-weight:500;
+
+  font-family: 'Lora', serif;
+  text-align: center;
+  line-height: 1.4em;
+  margin-top: .7em;
+}
+
+.slogan::before{
+  content: "BeCherished";
+  font-family:'Dancing Script', cursive;
+ font-size: 1.8em;
+  writing-mode: vertical-rl;
+ text-orientation: mixed;
+ position: absolute;
+ left:0;
+
+ padding-left: 2%;
+color:#242020;
+opacity:.1;
+}
+
+.btn{
+
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 3.3em;
+  padding: .9em 1em;
+  border-radius: 85px;
+  display: block;
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.full-color{
+  background: #EA15C9;
+  border: 4px solid #EA15C9;
+  margin-top: -.3em;
+  margin-bottom: 1em;
+}
+
+.part-color{
+  color: #1D1A1A;
+  border: 5px solid #EA15C9;
+  margin-bottom: 1em;
+}
+
+/* Second Page */
+
+.second-page{
+   width: 100vw;
+   min-height: 100vh;
+  background: #250D2C;
+  overflow-x: hidden;
+}
+
+.second-page h2{
+  font-family:'Dancing Script', cursive;
+  font-size: 8em;
+  color:#FDF4F4;
+  opacity: .6;
+  font-weight: normal;
+  text-align: center;
+  padding-top: .7em;
+  padding-bottom: .5em;
+
+}
+
+.round-feature{
+height:75em;
+width:75em;
+border: 10px solid white;
+border-radius: 50%;
+text-align: center;
+margin-left: 5em;
+margin-bottom: 23em;
+
+}
+
+.first, .second{
+  display:none;
+}
+.third{
+  display: block;
+}
+
+.feature-img{
+  width:15em;
+  height:15em;
+  margin-top: 20em;
+}
+
+.second .feature-img,
+.third .feature-img{
+  margin-bottom: 1em;
+}
+
+
+.feature-heading{
+  font-family: 'Merriweather', serif;
+  font-size: 7em;
+  color:white;
+  font-style: italic;
+  font-weight:400;
+  margin-top: -.4em;
+
+}
+
+.third .feature-heading{
+  margin-right: 1.95em;
+}
+
+
+
+.feature-content{
+    font-family: 'Merriweather', serif;
+    font-size: 3.5em;
+    color: white;
+    font-weight: normal;
+    font-style: italic;
+    width:60%;
+    text-align: right;
+    margin-left: 1em;
+    margin-top: -1.5em;
+
+}
+
+.second .feature-content{
+  font-size: 3.1em;
+  width:64%;
+  margin-left: 0;
+}
+
+
+
+.move-together{
+  margin-left: 5em;
+}
+
+span.number{
+font-family: 'Lora', serif;
+font-size: 17em;
+color:white;
+position: absolute;
+padding: .7em 1em;
+
+}
+
+/* Third page */
+
+.third-page{
+  background: #EDE5EE;
+  padding: .5em 0 6em;
+  width: 100vw;
+  min-height: 100vh;
+
+}
+
+.first-h2{
+  font-family:'Dancing Script', cursive;
+  font-size: 8em;
+  color:#250D2C;
+  opacity: .6;
+  font-weight: normal;
+  text-align: center;
+  width:73%;
+
+
+}
+
+.second-h2{
+  font-family:'Dancing Script', cursive;
+  font-size: 8em;
+  color:#250D2C;
+  position: absolute;
+  margin-top: -.7em;
+  margin-left: 5em;
+}
+
+.member{
+  background: white;
+  width:50%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 3em 3.5em;
+  border-radius: 50px;
+  -webkit-box-shadow: 10px 10px 33px -18px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 33px -18px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 33px -18px rgba(0,0,0,0.75);
+}
+
+.member-one{
+  margin-bottom: 7em;
+}
+
+.member-two{
+  margin-bottom: 2em;
+}
+
+.team-img{
+  width:23em;
+  height:23em;
+  margin-top: 1em;
+}
+
+.team-heading{
+  font-size:3.3em;
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  margin-top: 0.6em;
+
+}
+
+.member-one .team-heading::before{
+  content: "";
+  width: 160px;
+  height:5.5px;
+  background: #F60BFF;
+  position: absolute;
+  margin-top: 1.4em;
+  margin-left: -.1em;
+  border-radius: 3px;
+}
+
+.member-two .team-heading::after{
+  content: "";
+  width: 160px;
+  height:6px;
+  background: #F60BFF;
+  position: absolute;
+  margin-top: 1.3em;
+  margin-left: -3em;
+  border-radius: 3px;
+}
+
+
+
+.team-content{
+  font-size: 2.4em;
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  margin-top: -.9em;
+  line-height: 1.5em;
+}
+
+.member-two .team-content{
+  margin-top: -1.2em;
+}
+
+/* Fourth page */
+.fourth-page{
+padding-top: 10em;
+padding-bottom: 2em;
+width: 100vw;
+min-height: 100vh;
+}
+
+.headings-holder{
+  background: url("images/figure-purple.svg");
+  width:100vw;
+  height:650px;
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  margin-top: -10em;
+
+
+}
+
+.fourth-page h3, .fifth-page h3{
+  font-family:'Dancing Script', cursive;
+  font-weight: lighter;
+  font-size: 5em;
+  color: white;
+  margin: 0;
+  padding-top: 1.2em;
+  padding-left: 1.5em;
+}
+
+.fourth-heading{
+  font-size: 6em;
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  color:white;
+  position: absolute;
+  right:11%;
+  margin: 0;
+  margin-top: .3em;
+}
+
+.img-price-holder{
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  margin-top: -20em;
+}
+.img-price-holder img{
+  width:50%;
+  height:50%;
+}
+
+.service-name{
+  font-family: 'Lora', serif;
+  font-size: 5em;
+  color:#1D1A1A;
+  font-style: italic;
+  margin: 0;
+  margin-bottom: .1em;
+  margin-top: -.7em;
+}
+
+.service-price{
+  font-size: 4em;
+  font-family:'Dancing Script', cursive;
+  margin: 0;
+}
+
+.service-content{
+  font-family: 'Lora', serif;
+  font-size: 2vw;
+  color:#1D1A1A;
+  font-weight: 500;
+  width:80%;
+  margin: 0 auto;
+  margin-top: .7em;
+  line-height: 2em;
+}
+
+.p-first{
+  margin-bottom: .5em;
+}
+
+.p-second{
+  margin-bottom: 2em;
+}
+
+.p-increase{
+  font-size: 1.8em;
+}
+
+.p-inc{
+  font-size: 1.63em;
+  padding: .5em;
+}
+
+
+.fourth-page-a{
+  background: #EA15C9;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 3.7em;
+  padding: .5em 1.7em;
+  border-radius: 85px;
+
+}
+
+.points-holder{
+  text-align: center;
+  padding-top: 6.5em;
+  padding-bottom: 6em;
+}
+
+.scroll-points{
+  width:22%;
+  height:10%;
+
+}
+
+.first-option,.second-option, .fourth-option {
+  display:none;
+}
+
+.third-option{
+  display:block;
+}
+
+.first-holder{
+  display: block;
+}
+
+.second-holder, .third-holder, .fourth-holder{
+  display: none;
+}
+
+/* Fifth page */
+
+.fifth-page{
+  width: 100vw;
+  min-height: 100vh;
+ background: #EEE9F5;
+ padding-bottom: 5em;
+
+}
+
+.purple-part{
+  background: #250D2C;
+  height:40em;
+}
+
+.review-list{
+  position: relative;
+  z-index: 2;
+  margin-top: -19em;
+
+}
+
+.review{
+  background: white;
+  padding: 5em 4.3em 3.5em;
+  text-align: center;
+  font-family: 'Lora', serif;
+  font-size: 1.1em;
+  color: #1D1A1A;
+  margin: 6em 3.5em;
+  border-radius: 80px;
+  -webkit-box-shadow: 6px 13px 43px -25px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 13px 43px -25px rgba(0,0,0,0.75);
+  box-shadow: 6px 13px 43px -25px rgba(0,0,0,0.75);
+
+}
+
+.review-first, .review-second{
+  margin-bottom: 13em;
+}
+
+
+
+.review-first::before{
+  content: "";
+  background: url("images/AlinaReview.png");
+  position: absolute;
+  width:12em;
+  height:12em;
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  left:14%;
+  top:-6.5%;
+
+}
+
+.review-author{
+  font-family: 'Lora', serif;
+  font-size: 1.3vw;
+  color: #1D1A1A;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.review-second::before{
+  content: "";
+  background: url("images/MariaReview.png");
+  position: absolute;
+  width:12em;
+  height:12em;
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  left:14%;
+  top:30%;
+}
+
+.review-third::before{
+  content: "";
+  background: url("images/AlisaReview.png");
+  position: absolute;
+  width:12em;
+  height:12em;
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  left:14%;
+  top:67%;
+}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="29" height="21" viewBox="0 0 29 21">
+  <g id="Меню" transform="translate(-405 345)">
+    <g id="Прямоугольник_2" data-name="Прямоугольник 2" transform="translate(413 -345)" fill="#1d1a1a" stroke="#1d1a1a" stroke-width="1">
+      <rect width="21" height="5" rx="2.5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="20" height="4" rx="2" fill="none"/>
+    </g>
+    <g id="Прямоугольник_3" data-name="Прямоугольник 3" transform="translate(405 -337)" fill="#1d1a1a" stroke="#1d1a1a" stroke-width="1">
+      <rect width="29" height="5" rx="2.5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="28" height="4" rx="2" fill="none"/>
+    </g>
+    <g id="Прямоугольник_4" data-name="Прямоугольник 4" transform="translate(405 -329)" fill="#1d1a1a" stroke="#1d1a1a" stroke-width="1">
+      <rect width="29" height="5" rx="2.5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="28" height="4" rx="2" fill="none"/>
+    </g>
+  </g>
+</svg>
